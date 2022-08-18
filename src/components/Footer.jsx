@@ -26,8 +26,8 @@ const Footer = () => {
             <Button>GO</Button>
           </label>
         </form>
-        <ul className="flex flex-wrap leading-8 max-w-xs mx-auto pl-10 my-10 text-left text-white md:m-0 md:p-0 md:ml-20">
-          <li className="basis-1/2  w-fit">
+        <ul className="flex flex-wrap leading-8 max-w-xs mx-auto pl-10 my-10 text-left text-white md:m-0 md:p-0 md:ml-10 lg:ml-20">
+          <li className="basis-1/2 w-fit">
             <span className="cursor-pointer hover:text-darkGrayishBlue">
               Home
             </span>
