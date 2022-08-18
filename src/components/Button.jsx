@@ -3,8 +3,7 @@ const Button = ({ otherProps, children, className, buttonType }) => {
     inverted:
       'bg-white text-brightRed hover:text-brightRedLight hover:bg-white',
   };
-  console.log(buttonTypes[buttonType]);
-  console.log(className);
+
   return (
     <button
       className={`py-3 px-6  rounded-3xl font-bold text-xs lg:flex  ${className} ${

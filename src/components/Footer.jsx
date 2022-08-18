@@ -11,7 +11,7 @@ const Footer = () => {
     e.preventDefault();
   };
   return (
-    <footer className="bg-veryDarkBlue py-12">
+    <footer className="bg-veryDarkBlue py-12 relative">
       <div className="relative px-5 container mx-auto lg:max-w-5xl md:flex md:flex-row-reverse md:justify-between">
         <form className="flex justify-center gap-3" onSubmit={handleSubmit}>
           <input
@@ -76,6 +76,21 @@ const Footer = () => {
         <span className="text-gray-500 flex justify-center text-xs mt-10 md:absolute right-5 bottom-0">
           Copyright 2022. All Rights Reserved
         </span>
+      </div>
+      <div
+        className="absolute bottom-3 right-1/2 translate-x-1/2 text-darkGrayishBlue opacity-50 text-center"
+        style={{ fontSize: '10px' }}
+      >
+        <span>Challenge by </span>
+        <a
+          className="text-white"
+          href="https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Frontend Mentor
+        </a>
+        <span>. Coded by Hubert Lemczak.</span>
       </div>
     </footer>
   );
