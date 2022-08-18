@@ -27,13 +27,41 @@ const Footer = () => {
           </label>
         </form>
         <ul className="flex flex-wrap leading-8 max-w-xs mx-auto pl-10 my-10 text-left text-white md:m-0 md:p-0 md:ml-20">
-          <li className="basis-1/2">Home</li>
-          <li className="basis-1/2">Careers</li>
-          <li className="basis-1/2">Pricing</li>
-          <li className="basis-1/2">Community</li>
-          <li className="basis-1/2">Products</li>
-          <li className="basis-1/2">Privacy Policy</li>
-          <li className="basis-1/2">About Us</li>
+          <li className="basis-1/2  w-fit">
+            <span className="cursor-pointer hover:text-darkGrayishBlue">
+              Home
+            </span>
+          </li>
+          <li className="basis-1/2 w-fit">
+            <span className="cursor-pointer hover:text-darkGrayishBlue">
+              Careers
+            </span>
+          </li>
+          <li className="basis-1/2 w-fit">
+            <span className="cursor-pointer hover:text-darkGrayishBlue">
+              Pricing
+            </span>
+          </li>
+          <li className="basis-1/2 w-fit">
+            <span className="cursor-pointer hover:text-darkGrayishBlue">
+              Community
+            </span>
+          </li>
+          <li className="basis-1/2 w-fit">
+            <span className="cursor-pointer hover:text-darkGrayishBlue">
+              Products
+            </span>
+          </li>
+          <li className="basis-1/2 w-fit">
+            <span className="cursor-pointer hover:text-darkGrayishBlue">
+              Privacy Policy
+            </span>
+          </li>
+          <li className="basis-1/2 w-fit">
+            <span className="cursor-pointer hover:text-darkGrayishBlue">
+              About Us
+            </span>
+          </li>
         </ul>
         <div className="flex flex-col justify-center items-center gap-10 md:flex-col-reverse md:justify-between">
           <div className="flex gap-10 md:gap-3">
