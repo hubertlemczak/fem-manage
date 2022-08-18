@@ -6,7 +6,11 @@ const Navbar = () => {
   return (
     <header className="py-14">
       <nav className="flex justify-between items-center ">
-        <Logo className="cursor-pointer" />
+        <Logo
+          className="cursor-pointer"
+          style={{ fill: '#242D52' }}
+          fill="#242D52"
+        />
         <ul className="hidden gap-8 font-bold text-sm lg:flex">
           <li className="cursor-pointer hover:text-darkGrayishBlue">Pricing</li>
           <li className="cursor-pointer hover:text-darkGrayishBlue">Product</li>

@@ -1,7 +1,16 @@
-const Button = ({ otherProps, children, className }) => {
+const Button = ({ otherProps, children, className, buttonType }) => {
+  const buttonTypes = {
+    inverted:
+      'bg-white text-brightRed hover:text-brightRedLight hover:bg-white',
+  };
+  console.log(buttonTypes[buttonType]);
+  console.log(className);
   return (
     <button
-      className={`lg:flex py-3 px-6 bg-brightRed rounded-3xl text-white font-bold text-xs hover:bg-brightRedLight ${className}`}
+      className={`py-3 px-6  rounded-3xl font-bold text-xs lg:flex  ${className} ${
+        buttonTypes[buttonType] ??
+        'bg-brightRed text-white hover:bg-brightRedLight'
+      }`}
       {...otherProps}
     >
       {children}
