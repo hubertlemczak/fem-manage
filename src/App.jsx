@@ -13,9 +13,9 @@ function App() {
         <main>
           <Hero />
           <ListSection />
-          <UserReviews />
         </main>
       </div>
+      <UserReviews />
       <SimplifySection />
       <Footer />
     </>

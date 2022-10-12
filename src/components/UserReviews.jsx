@@ -3,7 +3,7 @@ import Carousel from './Carousel';
 
 const UserReviews = () => {
   return (
-    <section>
+    <section className="">
       <h2 className="text-center text-4xl font-bold text-darkBlue mb-5">
         What they've said
       </h2>
