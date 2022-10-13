@@ -38,8 +38,8 @@ const REVIEWS = [
 ];
 
 const Carousel = () => {
-  const [width, setWidth] = useState();
-
+  const [width, setWidth] = useState(window.innerWidth);
+  console.log(width);
   useEffect(() => {
     window.addEventListener('resize', e => {
       setWidth(window.innerWidth);
@@ -82,7 +82,7 @@ const Carousel = () => {
       {...carouselProps}
       infiniteLoop
       showThumbs={false}
-      renderIndicator={false}
+      showStatus={false}
     >
       {REVIEWS.map((review, i) => (
         <CarouselItem key={i} {...review} />

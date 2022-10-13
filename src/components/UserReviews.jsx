@@ -8,7 +8,7 @@ const UserReviews = () => {
         What they've said
       </h2>
       <Carousel />
-      <div className="flex justify-center mb-40">
+      <div className="flex justify-center mb-32 mt-32">
         <Button>Get Started</Button>
       </div>
     </section>
